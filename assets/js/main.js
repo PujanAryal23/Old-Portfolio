@@ -212,10 +212,10 @@
    * Skills slider
    */
   new Swiper('.skills-slider', {
-    speed: 500,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 0,
+      delay: 50,
       disableOnInteraction: false
     },
     slidesPerView: 8,
