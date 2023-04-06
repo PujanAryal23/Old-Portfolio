@@ -857,7 +857,6 @@ p {
 --------------------------------------------------------------*/
 #contact {
   height: auto;
-  background: #f7f7f7;
   width: 100%;
 }
 
@@ -1073,7 +1072,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgb(244, 244, 244);
+  background: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1561,4 +1560,21 @@ blockquote {
   width: 50px;
   height: 50px;
   margin-right: 10px;
+}
+
+.carousel-img {
+  display: inline-block; /* or block */
+  object-fit: contain;
+  width: 150px;
+  height: 100px; /* Set a fixed height for all images */
+}
+
+.carousel-skills {
+  display: flex;
+  justify-content: center;
+}
+
+#skills {
+  background: #f7f7f7;
+  position: relative;
 }

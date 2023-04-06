@@ -207,6 +207,23 @@
     }
   });
 
+
+  /**
+   * Skills slider
+   */
+  new Swiper('.skills-slider', {
+    speed: 500,
+    loop: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false
+    },
+    slidesPerView: 8,
+    pagination: {
+      clickable: true
+    }
+  });
+
   /**
    * Porfolio isotope and filter
    */
