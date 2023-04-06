@@ -20,6 +20,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         console.log("Email sent!", response.status, response.text);
         var successModal = new bootstrap.Modal(document.getElementById("successModal"));
         successModal.show();
+        document.getElementById("contact-form").reset();
       }, function(error) {
         console.log("Email failed to send...", error);
         alert("Email failed to send...");
