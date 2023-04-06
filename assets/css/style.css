@@ -1567,14 +1567,23 @@ blockquote {
   object-fit: contain;
   width: 150px;
   height: 100px; /* Set a fixed height for all images */
-}
-
-.carousel-skills {
-  display: flex;
-  justify-content: center;
+  background: transparent;
 }
 
 #skills {
   background: #f7f7f7;
   position: relative;
+}
+
+.skill-image-container span {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #292929;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.skill-image-container{
+  text-align: center;
 }
