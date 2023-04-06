@@ -5,13 +5,13 @@ This is the personal portfolio website of a Test Automation Engineer with 5 year
 ## Features
 The website has the following features:
 
-# Home Page: Provides an overview of the engineer's skills, experience, and achievements. It also displays links to the engineer's social media profiles.
+    Home Page: Provides an overview of the engineer's skills, experience, and achievements. It also displays links to the engineer's social media profiles.
 
-# About Page: Provides more information about the engineer's professional background, skills, and interests.
+    About Page: Provides more information about the engineer's professional background, skills, and interests.
 
-# Resume Page: Provides a downloadable copy of the engineer's resume.
+    Resume Page: Provides a downloadable copy of the engineer's resume.
 
-# Contact Page: Provides a form for visitors to send a message to the engineer.
+    Contact Page: Provides a form for visitors to send a message to the engineer.
 
 ## Technologies Used
 The website is built using the following technologies:
