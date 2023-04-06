@@ -221,6 +221,20 @@
     slidesPerView: 8,
     pagination: {
       clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+      1200: {
+        slidesPerView: 8,
+        spaceBetween: 10
+      }
     }
   });
 
