@@ -558,7 +558,6 @@ p {
   width: 100%;
   height: auto;
   background: #f7f7f7;
-  
   padding-top: 120px;
 }
 
@@ -586,7 +585,7 @@ p {
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -857,7 +856,6 @@ p {
 --------------------------------------------------------------*/
 #contact {
   height: auto;
-  background: #f7f7f7;
   width: 100%;
 }
 
@@ -1073,7 +1071,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgb(244, 244, 244);
+  background: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1546,19 +1544,13 @@ blockquote {
   }
 }
 
-.company-info-child {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-
-.company-info-child {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.company-info-parent img {
-  width: 50px;
-  height: 50px;
+.company-logo {
   margin-right: 10px;
+  width: 50px; /* set the logo width to 50px */
+  height: 50px; /* set the logo height to 50px */
+}
+
+.company-info {
+  display: inline-block;
+  vertical-align: middle;
 }
