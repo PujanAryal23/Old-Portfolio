@@ -52,6 +52,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#experience">Experience</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#recommendation">Recommendation</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -182,9 +184,9 @@
                 <div class="timeline-content">
                   <div class="company-info-parent">
                     <img class="company-info-child" src="assets/img/logpoint.jpg" alt="Logpoint">
-                    <h4 class="company-info-child">Logpoint</h4>
+                    <h3 class="company-info-child">Logpoint</h3>
                   </div>
-                  <h3 class="timeline-title">Senior Test Automation Engineer</h3>
+                  <h4 class="timeline-title">Senior Test Automation Engineer</h4>
                   <ul class="responsibilities">
                     <li>Developed and maintained Selenium and Robot Framework test automation frameworks</li>
                     <li>Created detailed test plans and cases</li>
@@ -199,9 +201,9 @@
                 <div class="timeline-content">
                   <div class="company-info-parent">
                     <img class="company-info-child" src="assets/img/teksewa.jpeg" alt="Teksewa Services">
-                    <h4 class="company-info-child">Teksewa Services</h4>
+                    <h3 class="company-info-child">Teksewa Services</h3>
                   </div>
-                  <h3 class="timeline-title">Senior Software Engineer</h3>
+                  <h4 class="timeline-title">Senior Software Engineer</h4>
                   <ul class="responsibilities">
                     <li>Developed enterprise-level .Net application for US State Government</li>
                     <li>Implemented web components and functionality</li>
@@ -216,9 +218,9 @@
                 <div class="timeline-content">
                   <div class="company-info-parent">
                     <img class="company-info-child" src="assets/img/cotiviti.jpeg" alt="Cotiviti Nepal">
-                    <h4 class="company-info-child">Cotiviti Nepal</h4>
+                    <h3 class="company-info-child">Cotiviti Nepal</h3>
                   </div>
-                  <h3 class="timeline-title">Software Engineer II</h3>
+                  <h4 class="timeline-title">Software Engineer II</h4>
                   <ul class="responsibilities">
                     <li>Developed and maintained Selenium automation framework and test scripts</li>
                     <li>Monitored, maintained, and provided bug tracking and defect resolution reports</li>
@@ -374,7 +376,7 @@
     <!-- End of Skill Set -->
 
     <!-- Recommendation -->
-    <div class="paddsection">
+    <div id="recommendation" class="paddsection">
       <div class="container">
         <div class="section-title text-center">
           <h2 class="mb-30">Recommendations</h2>
@@ -388,7 +390,7 @@
     <!-- End of Recommendation -->
 
     <!-- ======= Contact Section ======= -->
-    <div id="skills" class="paddsection">
+    <div id="contact" class="paddsection">
       <div class="container">
         <div class="contact-block1">
           <div class="row">
@@ -442,7 +444,6 @@
                   <div class="mt-0">
                     <input type="submit" class="btn btn-secondary" value="Send message">
                   </div>
-
                 </div>
               </form>
             </div>
@@ -482,23 +483,32 @@
 
   <!-- Modal -->
   <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="successModalLabel">Email sent!</h5>
+          <h5 class="modal-title" id="successModalLabel">Email Sent</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <p>Your email has been sent successfully.</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <!-- End of Modal -->
 
+  <!-- Loading icon -->
+  <div id="loading-overlay" class="hidden">
+    <div id="loading-icon">
+      <img src="assets/img/loading.gif" alt="Loading...">
+    </div>
+    <div id="loading-text">Sending Email...</div>
+
+  </div>
+  <!-- End Of Loading icon -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
