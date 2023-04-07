@@ -1072,7 +1072,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
+  background: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1587,3 +1587,4 @@ blockquote {
 .skill-image-container{
   text-align: center;
 }
+
